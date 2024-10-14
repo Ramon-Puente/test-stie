@@ -1,0 +1,126 @@
+/* General body styling */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.navbar-container nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-container nav ul li {
+    margin: 0 20px;
+}
+
+.navbar-container nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.navbar-container nav ul li a:hover {
+    color: #ff6f21;
+}
+
+/* Hero section styling */
+.hero {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.hero-image {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.hero h2 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #666;
+}
+
+/* Content section styling */
+.content {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.content h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.content ul li {
+    margin: 10px 0;
+}
+
+.content ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+.content ul li a:hover {
+    color: #ff6f21;
+}
+
+/* Footer styling */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.footer img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.footer .social-media {
+    margin-top: 20px;
+}
+
+.footer .social-media a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.footer .social-media a:hover {
+    color: #ff6f21;
+}
